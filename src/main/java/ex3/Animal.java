@@ -7,14 +7,14 @@ public class Animal {
 
 	private String type;
 	private String nom;
-	private String comportement;
+	private Comportement comportement;
 	/**
 	 * Constructor
 	 * @param type
 	 * @param nom
 	 * @param comportement
 	 */
-	public Animal(String type, String nom, String comportement) {
+	public Animal(String type, String nom, Comportement comportement) {
 		super();
 		this.type = type;
 		this.nom = nom;
@@ -38,7 +38,7 @@ public class Animal {
 	 * Getter
 	 * @return the comportement
 	 */
-	public String getComportement() {
+	public Comportement getComportement() {
 		return comportement;
 	}
 	
